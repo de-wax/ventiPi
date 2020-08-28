@@ -1,6 +1,6 @@
 #Install git
 sudo apt install git
-#Install go
+#Install go 1.15
 export GOPKG=go1.15
 wget https://golang.org/dl/$GOPKG.linux-armv6l.tar.gz
 sudo tar -C /usr/local -xzf $GOPKG.linux-armv6l.tar.gz
