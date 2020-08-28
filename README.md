@@ -1,5 +1,5 @@
 # ventiPi
-![Go](https://github.com/de-wax/ventiPi/workflows/Go/badge.svg)
+
 ## German:
 Eine über den Taupunkt geregelte Lüftungssteuerung für den Raspberry Pi.
 Dieses Projekt beginnt gerade erst und wie schnell ich damit voran komme, kann ich noch nicht sagen. Mitstreiter sind gerne willkommen.
