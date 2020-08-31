@@ -11,3 +11,4 @@ source $HOME/.bashrc
 #Make Folder and Clone Repository
 mkdir ventiPi && cd ventiPi
 git clone https://github.com/de-wax/ventiPi.git
+go build .
