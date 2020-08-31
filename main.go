@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
-	"github.com/de-wax/ventiPi/pkg/dewpoint"
+	"github.com/de-wax/go-pkg/dewpoint"
 )
 
 func main() {
