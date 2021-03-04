@@ -1,9 +1,9 @@
 # ventiPi
 
 ## German:
-Eine über den Taupunkt geregelte Lüftungssteuerung für den Raspberry Pi.
-Dieses Projekt beginnt gerade erst und wie schnell ich damit voran komme, kann ich noch nicht sagen. Mitstreiter sind gerne willkommen.
+Eine Lüftungssteuerung für den Raspberry Pi.
+Ursprünglich wollte ich die Steuerung in Go schreiben, nun werde ich es wohl, aufgrund der guten Vorarbeit von SirReal auf Youtube (https://www.youtube.com/watch?v=GmuldtHoURc&list=PLgYS2FpH2f4ruZqeL_5Q-74yXQD8xVN4L) in Node-Red umsetzen.
 
 ## English:
-A dew point controlled ventilation system for the Raspberry Pi.
-This project is only just beginning and I cannot yet say how fast I am progressing with it. Contributors are welcome.
+A ventilation control for the Raspberry Pi.
+Originally I wanted to write the control in Go, now I will probably implement it in Node-Red, due to the good preliminary work of SirReal on Youtube (https://www.youtube.com/watch?v=GmuldtHoURc&list=PLgYS2FpH2f4ruZqeL_5Q-74yXQD8xVN4L).
