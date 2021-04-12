@@ -59,8 +59,8 @@ Click on "Get IP" to show the IP-Adress of the ESP8266 and paste this into your 
 
 ##### Configure the ESP8266 to post sensor data to MQTT
 
-![Configuration](/tasmota/prepare/2.png "Configuration")
-![Configure Module](/tasmota/prepare/3.png "Configure Module")
+![Configuration](/tasmota/prepare/2.png "Configuration") ![Configure Module](/tasmota/prepare/3.png "Configure Module")
+
 ![Select Module Type](/tasmota/prepare/4.png "Select Module Type")
 
 Click on Configuration -> Configure Module -> Select Module Type "Generic (18)" and click save
