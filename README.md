@@ -53,7 +53,9 @@ Download Tasmotizer from [here](https://github.com/tasmota/tasmotizer).
 ##### Tasmotize your ESP8266 and configure WiFi
 
 First select COM-Port and tasmota-sensors.bin, then click Tasmotize!
+
 After this finished, click on "Send config" and configure your WiFi-Settings. Leave everything else default.
+
 Click on "Get IP" to show the IP-Adress of the ESP8266 and paste this into your Brwoser.
 
 ![Tasmotize and Configure](/tasmota/prepare/1.png "Tasmotize and Configure")
@@ -69,8 +71,11 @@ Click on Configuration -> Configure Module -> Select Module Type "Generic (18)" 
 
 
 Wait for Reboot, then Click Configuration -> Configure Module
+
 Set TX to I²C SCL
+
 Set RX to I²C SDA
+
 Click Save and wait for Reboot
 
 ![Configure Module](/tasmota/prepare/5.png "Configure Module")
@@ -87,7 +92,9 @@ Configure Hostname on Configuration -> Configure WiFi -> Hostname, click Save
 
 
 Configure MQTT-Parameters on Configuration -> Configure MQTT
+
 Set Host, Port, Client, User to your needs
+
 Set topic an full topic to tasmota-innen for the inside sensor, tasmota-aussen for the outside sensor. Or set the names that you prefer and change it in the node-RED flow.
 
 ![MQTT-Parameters](/tasmota/prepare/8.png "MQTT-Parameters")
