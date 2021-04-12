@@ -51,50 +51,53 @@ Connect SHT31 sensor to ESP8266, check `pinout` to see your layout.
 Download Tasmotizer from [here](https://github.com/tasmota/tasmotizer).
 
 ##### Tasmotize your ESP8266 and configure WiFi
+
+First select COM-Port and tasmota-sensors.bin, then click Tasmotize!
+After this finished, click on "Send config" and configure your WiFi-Settings. Leave everything else default.
+Click on "Get IP" to show the IP-Adress of the ESP8266 and paste this into your Brwoser.
+
 ![Tasmotize and Configure](/tasmota/prepare/1.png "Tasmotize and Configure")
 
-* First select COM-Port and tasmota-sensors.bin, then click Tasmotize!
-* After this finished, click on "Send config" and configure your WiFi-Settings. Leave everything else default.
-* Click on "Get IP" to show the IP-Adress of the ESP8266 and paste this into your Brwoser.
 
 #### Configure the ESP8266 to post sensor data to MQTT
+
+Click on Configuration -> Configure Module -> Select Module Type "Generic (18)" and click save
 
 ![Configuration](/tasmota/prepare/2.png "Configuration")
 ![Configure Module](/tasmota/prepare/3.png "Configure Module")
 ![Select Module Type](/tasmota/prepare/4.png "Select Module Type")
 
-* Click on Configuration -> Configure Module -> Select Module Type "Generic (18)" and click save
 
+Wait for Reboot, then Click Configuration -> Configure Module
+Set TX to I²C SCL
+Set RX to I²C SDA
+Click Save and wait for Reboot
 
 ![Configure Module](/tasmota/prepare/5.png "Configure Module")
 
-* Wait for Reboot, then Click Configuration -> Configure Module
-* Set TX to I²C SCL
-* Set RX to I²C SDA
-* Click Save and wait for Reboot
 
+Sensor-Data is now shown on ESP8266-Homepage
 
 ![Sensor-Data](/tasmota/prepare/6.png "Sensor-Data")
 
-* Sensor-Data is now shown on ESP8266-Homepage
 
+Configure Hostname on Configuration -> Configure WiFi -> Hostname, click Save
 
 ![Hostname](/tasmota/prepare/7.png "Hostname")
 
-* Configure Hostname on Configuration -> Configure WiFi -> Hostname, click Save
 
+Configure MQTT-Parameters on Configuration -> Configure MQTT
+Set Host, Port, Client, User to your needs
+Set topic an full topic to tasmota-innen for the inside sensor, tasmota-aussen for the outside sensor. Or set the names that you prefer and change it in the node-RED flow.
 
 ![MQTT-Parameters](/tasmota/prepare/8.png "MQTT-Parameters")
 
-* Configure MQTT-Parameters on Configuration -> Configure MQTT
-* Set Host, Port, Client, User to your needs
-* Set topic an full topic to tasmota-innen for the inside sensor, tasmota-aussen for the outside sensor. Or set the names that you prefer and change it in the node-RED flow.
 
+Set the telemetry period to the value you prefer.
 
 ![Telemetry period](/tasmota/prepare/9.png "Telemetry period")
 
-* Set the telemetry period to the value you prefer.
 
 #### Install node-RED
 
-* Install node-Red like described [here](https://nodered.org/docs/getting-started/raspberrypi).
+Install node-Red like described [here](https://nodered.org/docs/getting-started/raspberrypi).
