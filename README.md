@@ -57,7 +57,7 @@ Download Tasmotizer from [here](https://github.com/tasmota/tasmotizer).
 * After this finished, click on "Send config" and configure your WiFi-Settings. Leave everything else default.
 * Click on "Get IP" to show the IP-Adress of the ESP8266 and paste this into your Brwoser.
 
-##### Configure the ESP8266 to post sensor data to MQTT
+#### Configure the ESP8266 to post sensor data to MQTT
 
 ![Configuration](/tasmota/prepare/2.png "Configuration")
 ![Configure Module](/tasmota/prepare/3.png "Configure Module")
