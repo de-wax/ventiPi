@@ -99,7 +99,7 @@ Set the telemetry period to the value you prefer.
 
 ![Telemetry period](/tasmota/prepare/9.png "Telemetry period")
 
-#### mosquitto Broker
+#### Install mosquitto Broker
 
 ```sudo apt update && sudo apt install mosquitto```
 
