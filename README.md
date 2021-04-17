@@ -1,19 +1,13 @@
 # ventiPi
 
-## German:
-Eine Lüftungssteuerung für den Raspberry Pi oder jedes andere Gerät auf dem man Node-Red installieren und starten kann.
-Ursprünglich wollte ich die Steuerung in Go schreiben, nun werde ich es wohl, aufgrund der guten Vorarbeit von SirReal auf [Youtube](https://www.youtube.com/watch?v=GmuldtHoURc&list=PLgYS2FpH2f4ruZqeL_5Q-74yXQD8xVN4L) in Node-Red umsetzen.
-
-## English:
 A ventilation controller for the Raspberry Pi or any other device on which you can install and run Node-Red.
-Originally I wanted to write the control in Go, now I will probably implement it in Node-Red, due to the good preliminary work of SirReal on [Youtube](https://www.youtube.com/watch?v=GmuldtHoURc&list=PLgYS2FpH2f4ruZqeL_5Q-74yXQD8xVN4L).
+Still under development and without real function.
 
 ## Required hardware:
 
 * A Raspberry Pi or other Hardware running Node-Red
 * [NodeMCU Lolin V3 Module ESP8266](https://www.amazon.de/gp/product/B074Q2WM1Y/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
 * [SHT31 Sensor](https://www.amazon.de/gp/product/B07YQWX6BP/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1)
-
 
 ## Setup:
 
