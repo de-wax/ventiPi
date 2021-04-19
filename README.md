@@ -93,6 +93,21 @@ Set the telemetry period to the value you prefer.
 
 ![Telemetry period](/tasmota/prepare/9.png "Telemetry period")
 
+#### Configure Sensor Offsets for Temp and Humidity
+Like described [here](https://tasmota.github.io/docs/Commands/)
+
+Open Webinterface of ESP8266 and Click on Console, then enter Command an hit Enter.
+
+> TempOffset	-12.6..12.6 = Set calibraton offset value for reported temperature telemetry  
+> This setting affects all temperature sensors on the device.  
+
+```TempOffset -3 ```  
+
+> HumOffset	-10.0..10.0 = Set calibraton offset value for reported humidity telemetry  
+> This setting affects all humidity sensors on the device.  
+
+```HumOffset 5 ```  
+
 #### Install mosquitto Broker
 
 ```sudo apt update && sudo apt install mosquitto```
