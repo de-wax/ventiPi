@@ -6,8 +6,11 @@ Still under development and without real function.
 ## Required hardware:
 
 * A Raspberry Pi or other Hardware running Node-Red
-* [NodeMCU Lolin V3 Module ESP8266](https://www.amazon.de/gp/product/B074Q2WM1Y/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
-* [SHT31 Sensor](https://www.amazon.de/gp/product/B07YQWX6BP/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1)
+* 2x [NodeMCU Lolin V3 Module ESP8266](https://www.amazon.de/gp/product/B074Q2WM1Y/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
+* 2x [BME280 Sensor](https://www.amazon.de/gp/product/B07KY8WY4M/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+* 2x [HS100 Smart Plug](https://www.amazon.de/dp/B07TFGFVBW/ref=cm_sw_em_r_mt_dp_6KTB1F7CBCXTGHE7KKKK?_encoding=UTF8&psc=1 )
+* [Ventilator](https://www.amazon.de/gp/product/B00V4VDA9C/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+* [Dehumidifier](https://www.amazon.de/gp/product/B07MSL8YN7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
 ## Setup:
 
@@ -15,7 +18,7 @@ Still under development and without real function.
 
 #### Solder Sensor to ESP8266
 
-Connect SHT31 sensor to ESP8266, check `pinout` to see your layout.
+Connect BME280 sensor to ESP8266, check `pinout` to see your layout.
 
 ```
    ESP8266 v3
@@ -29,7 +32,7 @@ Connect SHT31 sensor to ESP8266, check `pinout` to see your layout.
  (SC )    (GND)
  (S0 )    (D5 )
  (SK )    (D6 )
- (GND)    (D7 )               SHT31            
+ (GND)    (D7 )               BME280            
  (3V3)    (D8 )
  (EN )    (RX )   ------->   (SCL)
  (RST)    (TX )   ------->   (SDA)
